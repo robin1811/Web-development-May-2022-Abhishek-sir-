@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3rem;
+    color:white;
+}
+
+h2{
+    font-size: 5.6rem;
+    padding: 5rem 0rem;
+    color:white;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 3rem;
+    color:white;
+}
+button{
+    font-size: 1.8rem;
+}
+
+nav{
+    background : rgb(156, 25, 25);
+    color : white;
+    padding: 2.5rem;
+}
+
+nav h1{
+    float: left;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+.clear{
+    clear:both;
+}
+nav li{
+    float: left;
+    margin: 0.5rem 5rem;
+}
+
+.hero-section{
+    height: 90vh;
+    background-image: url("./images/pexels-expect-best-251610.jpg");
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 20rem;
+    text-shadow: 2px 2px 10px black;
+}
+
+.hero-section button{
+    padding: 1.5rem 4.5rem;
+    margin-top: 4rem;
+    background : rgb(156, 25, 25);
+    border: none;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.form-section{
+    text-align: center;
+}
+
+
+form input, form label, form textarea{
+    display: block;
+    font-size: 2.5rem;
+}
+form input, form textarea{
+    margin: 2rem auto;
+    width: 50%;
+}
+form button{
+    padding: 1.5rem 4.5rem;
+    background : rgb(156, 25, 25);
+    border: none;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10rem;
+    width: 50%;
+}
+
+footer{
+    height: 10vh;
+    background : rgb(156, 25, 25);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(156, 25, 25);;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(190, 18, 18);
+  }

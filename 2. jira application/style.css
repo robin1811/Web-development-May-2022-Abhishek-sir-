@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    /* background-color: aqua; */
+}
+
+.navbar{
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #4b4b4b;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.priority{
+    height: 100%;
+    width: 40vw;
+    background: #3d3d3d7e;
+    /* border-radius: 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.color{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    
+}
+.color1{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 3px 3px 5px rgba(255, 0, 0, 0.411);
+}
+.color2{
+    background-color: pink;
+}
+.color3{
+    background-color: yellow;
+}
+.color4{
+    background-color: greenyellow;
+
+}
+.edit{
+    height: 10vh;
+    width: 15vw;
+    /* background: yellow; */
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.add,.delete{
+    height: 7.5vh;
+    width: 5vw;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: #3d3d3d82;
+    
+}
+
+
+.edit i{
+    font-size: 5rem;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_todo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #4b4b4b;
+    min-height: 40rem;
+    min-width: 70rem;
+    border-radius: 2rem;
+}
+
+.add_todo_container{
+    min-height: 40rem;
+    min-width: 50rem;
+    background: rgba(208, 208, 208, 0.829);
+    font-size: 3rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 3rem;
+}
+.add_todo_container textarea{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 3rem;
+    resize: none;
+}
+.add_todo_priority{
+    min-height: 40rem;
+    min-width: 20rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
